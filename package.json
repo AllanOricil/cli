@@ -92,6 +92,23 @@
       "update": "./dist/hooks/display-release-notes.js",
       "prerun": "./dist/hooks/prerun"
     },
+    "enableTheme": false,
+    "theme":{
+      "bin":"#1AB9FF",
+      "command":"#45C65A",
+      "commandSummary":"#FFFFFF",
+      "dollarSign":"#FFFF00",
+      "flag":"#45C65A",
+      "flagDefaultValue":"#1AB9FF",
+      "flagOptions":"#45C65A",
+      "flagRequired":"#FE5C4C",
+      "flagSeparator":"#FFFFFF",
+      "flagType":"#0EAEE8",
+      "sectionDescription":"#FFFFFF",
+      "sectionHeader":"#FFFF00",
+      "topic":"#45C65A",
+      "version":"#45C65A"
+    },
     "update": {
       "s3": {
         "bucket": "dfc-data-production",
@@ -125,7 +142,7 @@
     }
   },
   "dependencies": {
-    "@oclif/core": "3.10.6",
+    "@oclif/core": "https://github.com/AllanOricil/core.git#feat/themes",
     "@oclif/plugin-autocomplete": "3.0.1",
     "@oclif/plugin-commands": "3.0.6",
     "@oclif/plugin-help": "6.0.5",
@@ -245,13 +262,13 @@
     "@typescript-eslint/parser": "^5.62.0",
     "aws-sdk": "^2.1484.0",
     "chai": "^4.3.10",
-    "eslint": "^8.51.0",
+    "eslint": "^8.52.0",
     "eslint-config-oclif": "^5",
     "eslint-config-oclif-typescript": "^2.0.1",
     "eslint-config-prettier": "^8.10.0",
     "eslint-config-salesforce": "^2.0.2",
     "eslint-config-salesforce-license": "^0.2.0",
-    "eslint-config-salesforce-typescript": "^1.1.1",
+    "eslint-config-salesforce-typescript": "^2.0.0",
     "eslint-plugin-header": "^3.1.1",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-jsdoc": "^46.8.2",
@@ -263,7 +280,7 @@
     "pretty-quick": "^3.1.3",
     "sinon": "^15.2.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5",
+    "typescript": "^5.2.2",
     "wireit": "^0.14.1"
   },
   "wireit": {
